@@ -80,8 +80,7 @@ fun LeanbackSettingsCategoryIptv(
                 else "方向键上：上一个频道；方向键下：下一个频道",
                 trailingContent = {
                     Switch(
-                        checked = settingsViewModel.iptvChannelChangeFlip,
-                        onCheckedChange = null
+                        checked = settingsViewModel.iptvChannelChangeFlip, onCheckedChange = null
                     )
                 },
                 onSelected = {
@@ -176,8 +175,7 @@ private fun LeanbackSettingsIptvSourceHistoryDialog(
     onDeleted: (String) -> Unit = {},
 ) {
     val iptvSourceHistory = listOf(
-        Constants.IPTV_SOURCE_URL, Constants.IPTV_SOURCE_URL_TWO, Constants.IPTV_SOURCE_URL_THREE,
-        Constants.IPTV_SOURCE_URL_FOUR,
+        Constants.IPTV_SOURCE_URL, Constants.IPTV_SOURCE_URL_FOUR,
     ) + iptvSourceHistoryProvider()
     val currentIptvSource = currentIptvSourceProvider()
 

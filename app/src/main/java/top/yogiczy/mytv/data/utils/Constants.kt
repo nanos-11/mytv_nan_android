@@ -22,14 +22,9 @@ object Constants {
      * 之前：https://mirror.ghproxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u
      */
     const val IPTV_SOURCE_URL =
-        "https://gh-proxy.com/raw.githubusercontent.com/nanos-11/mytv-android/refs/heads/main/iptv4.m3u"
-
-    const val IPTV_SOURCE_URL_TWO =
-        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
-    const val IPTV_SOURCE_URL_THREE =
         "https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.m3u"
     const val IPTV_SOURCE_URL_FOUR =
-        "https://gh-proxy.org/https://github.com/nanos-11/mytv_nan_android/blob/main/playlist_china.m3u"
+        "https://cdn.jsdelivr.net/gh/nanos-11/mytv_nan_android@TAG_2025_12_29/output/china/playlist_china.m3u"
 
     /**
      * IPTV源缓存时间（毫秒）
