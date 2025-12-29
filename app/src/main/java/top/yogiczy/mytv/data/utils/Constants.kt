@@ -29,7 +29,7 @@ object Constants {
     const val IPTV_SOURCE_URL_THREE =
         "https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.m3u"
     const val IPTV_SOURCE_URL_FOUR =
-        "https://iptv-org.github.io/iptv/index.m3u"
+        "https://gh-proxy.org/https://github.com/nanos-11/mytv_nan_android/blob/main/playlist_china.m3u"
 
     /**
      * IPTV源缓存时间（毫秒）
