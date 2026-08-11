@@ -10,7 +10,7 @@ object Constants {
     const val APP_TITLE = "我的电视"
 
     /**
-     * 应用 代码仓库
+     * 应用 代码仓库就
      */
     const val APP_REPO = "https://github.com/nanos-11/mytv-android"
 
