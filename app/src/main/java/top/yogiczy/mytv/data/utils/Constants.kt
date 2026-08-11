@@ -45,12 +45,13 @@ object Constants {
      * Git最新版本信息
      */
     const val GIT_RELEASE_LATEST_URL =
-        "https://api.github.com/repos/yaoxieyoulei/mytv-android/releases/latest"
+        "https://api.github.com/repos/nanos-11/mytv-nan-android/releases/latest"
 
     /**
      * GitHub加速代理地址
      */
-    const val GITHUB_PROXY = "https://mirror.ghproxy.com/"
+    // const val GITHUB_PROXY = "https://mirror.ghproxy.com/" 旧的访问不到了
+    const val GITHUB_PROXY = "https://gh-proxy.com/"
 
     /**
      * HTTP请求重试次数
